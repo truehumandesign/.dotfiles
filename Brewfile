@@ -55,6 +55,7 @@ cask "windows-app"
 mas "WireGuard", id: 1451685025
 mas "Xcode", id: 497799835
 cargo "bunyan"
+cargo "cargo-audit"
 cargo "cargo-outdated"
 cargo "cargo-update"
 cargo "cargo-xwin"
