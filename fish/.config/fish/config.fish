@@ -12,9 +12,10 @@ setenv GOPATH $HOME/Developer/go
 fish_add_path $GOPATH/bin
 
 # PostgreSQL (libpq)
-fish_add_path $HOMEBREW_PREFIX/opt/libpq/bin
+fish_add_path $(brew --prefix libpq)/bin
 
 # Rust
+fish_add_path $(brew --prefix rustup)/bin
 fish_add_path $HOME/.cargo/bin
 
 # EZA
