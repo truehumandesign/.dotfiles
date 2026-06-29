@@ -60,8 +60,6 @@ brew "pinentry-mac"
 brew "pnpm"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
-# Rust toolchain installer
-brew "rustup"
 # Multi-purpose tool for manipulating and analyzing WAV files
 brew "shntool"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
@@ -98,8 +96,6 @@ cask "signal"
 cask "slack"
 # Remote access and connectivity software focused on security
 cask "teamviewer"
-# Free and open-source OpenVPN client
-cask "tunnelblick"
 # Multimedia player
 cask "vlc"
 # Connect to Windows

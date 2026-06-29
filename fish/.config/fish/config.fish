@@ -15,11 +15,15 @@ fish_add_path $GOPATH/bin
 fish_add_path $(brew --prefix libpq)/bin
 
 # Rust
-fish_add_path $(brew --prefix rustup)/bin
-fish_add_path $HOME/.cargo/bin
+source "$HOME/.cargo/env.fish"
 
 # EZA
 setenv EZA_CONFIG_DIR $HOME/.config/eza
+
+# Haskell
+setenv GHCUP_INSTALL_BASE_PREFIX $HOME
+fish_add_path $HOME/.cabal/bin
+fish_add_path $HOME/.ghcup/bin
 
 if status is-interactive
     # Getting rid of "last login" message and fish's greeting
