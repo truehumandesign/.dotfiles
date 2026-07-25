@@ -52,8 +52,6 @@ brew "kustomize"
 brew "libpq"
 # Mac App Store command-line interface
 brew "mas"
-# Create modern online books from Markdown files
-brew "mdbook"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Fast, disk space efficient package manager
@@ -107,5 +105,6 @@ cargo "cargo-audit"
 cargo "cargo-outdated"
 cargo "cargo-update"
 cargo "cargo-xwin"
+cargo "mdbook"
 cargo "sqlx-cli"
 npm "corepack"
